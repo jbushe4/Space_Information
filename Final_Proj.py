@@ -15,11 +15,11 @@ def load_datas(url):
     df1 = pd.read_excel(url)
     return df1  
 
-nasa = load_data("Tableau Midterm Folders/nasa-annual-budget.csv")
-visit = load_datas('Tableau Midterm Folders/annual-space-visits.xlsx')
-exo = load_data("Tableau Midterm Folders/cumulative-exoplanets-by-method.csv")
-ice = load_datas("Tableau Midterm Folders/Ice Cap's Level.xlsx")
-carbon = load_datas("Tableau Midterm Folders/Carbon Dioxide Levels.xlsx")
+nasa = load_data("nasa-annual-budget.csv")
+visit = load_datas('annual-space-visits.xlsx')
+exo = load_data("cumulative-exoplanets-by-method.csv")
+ice = load_datas("Ice Cap's Level.xlsx")
+carbon = load_datas("Carbon Dioxide Levels.xlsx")
 
 st.header("Benefits of Space Exploration")
 
