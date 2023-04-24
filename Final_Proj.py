@@ -89,9 +89,9 @@ if page == 'Space Discoveries':
 
     with tab3:
         carbon_c = alt.Chart(carbon, title= 'Carbon Dioxide Levels' , height= 700, width= 700).mark_line().encode(
-        x='Year',
-        y=alt.Y('Monthly Average',scale=alt.Scale(domain=[300, 450]))
-        )
+            x='Year',
+            y=alt.Y('Monthly Average',scale=alt.Scale(domain=[300, 450]))
+         )
         st.altair_chart(carbon_c)
 
 if page == 'Conclusion':
