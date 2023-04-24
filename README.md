@@ -12,4 +12,4 @@ All of the data was in suitable form so there was no needed to clean. I only had
 In the future, I am hoping to be able to better understand the privatization of space and how the changes in the industry will also impact the societal benefits. 
 This hopefully will be able to add to the 'Space Discoveries" page and give a more holistic view.
 
-https://jbushe4-space-information-final-proj-myao7l.streamlit.app/
+Link to my streamlit app: https://jbushe4-space-information-final-proj-myao7l.streamlit.app/
