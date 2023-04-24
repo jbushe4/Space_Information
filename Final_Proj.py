@@ -76,7 +76,7 @@ if page == 'Space Discoveries':
         name = ['Microlensing', 'Other methods', 'Radial velocity', 'Transit']
         color = ['black', 'white', 'green', 'red']
 
-        exo_c = alt.Chart(exo, title= 'Exoplants Discovered by strategy' , height= 600, width= 700).mark_area(opacity=0.3).encode(
+       exo_c = alt.Chart(exo, title= 'Exoplants Discovered by strategy' , height= 600, width= 700).mark_bar().encode(
         x="Year",
         y=alt.Y("cumulative_exoplanets"),
         color=alt.Color('Entity',scale=alt.
