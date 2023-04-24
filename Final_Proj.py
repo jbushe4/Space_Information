@@ -55,7 +55,7 @@ if page == 'Space Exploration':
             ).interactive()
         st.altair_chart(ASV_Chart)
        
-        st.write('Make World my Default Choice')
+        
         st.write('In the 1980s, the world had a large increase in Rocket Launches with the US and Russia having the most. This carried on till the late 2000s. After this the space industry became more privatized leading to independent venture and contracts to space.')
 
 if page == 'Space Discoveries':
@@ -69,7 +69,7 @@ if page == 'Space Discoveries':
         ).interactive()
         st.altair_chart(ice_c)
 
-        st.write('How to change which y variables I want?')
+       
 
     with tab2:
 
