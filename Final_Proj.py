@@ -45,7 +45,7 @@ if page == 'Space Exploration':
    
     with tab2:
         clist = visit['Entity'].unique()
-        country = st.selectbox("Select a country:",clist)
+        country = st.selectbox("Select a country:",clist,index=40)
 
         df = visit[visit['Entity'] == country]
 
