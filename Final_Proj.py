@@ -61,7 +61,7 @@ if page == 'Space Exploration':
 if page == 'Space Discoveries':
     tab1, tab2, tab3 = st.tabs(['Ice Melt','Exoplanets','Carbon Dioxide'])
     with tab1:
-        y_val = st.selectbox("Pick your y-axis",ice.select_dtypes(include=np.number).columns.tolist())
+        y_val = st.selectbox("Pick your y-axis",['loss','variance'])
         
         ice_c = alt.Chart(ice,title = 'Ice Melt',height= 600, width= 700).mark_line().encode(
         x='Date',
