@@ -95,7 +95,7 @@ if page == 'Space Discoveries':
         st.altair_chart(carbon_c)
 
 if page == 'Conclusion':
-    st.write("There has been a misconception that 'space' spending does not have application on Earth but that is untrue. Major discoveries in space have led to the creation of firefighting equipment, iphone cameras, and water filtration devices. Better understanding of natural events like Carbon Dioxide levels and Ice Cap melt can be fully captures through discoveries made in space.  ")
+    st.write("There has been a misconception that 'space' spending does not have application on Earth but that is untrue. Major discoveries in space have led to the creation of firefighting equipment, iphone cameras, and water filtration devices. Better understanding of natural events like Carbon Dioxide levels and Ice Cap melt can be fully captured through discoveries made in space.  ")
     
     link='For more information on this topic check out this [link](https://www.nasa.gov/specials/value-of-nasa/#:~:text=Dollars%20spent%20for%20space%20exploration,support%20disaster%20response%2C%20and%20more.)'
    
