@@ -93,6 +93,7 @@ if page == 'Space Discoveries':
             y=alt.Y('Monthly Average',scale=alt.Scale(domain=[300, 450]))
          )
         st.altair_chart(carbon_c)
+        st.write(" This shows that carbon dioxide levels have yearly seasonality but the overall trend is increasing.")
 
 if page == 'Conclusion':
     st.write("There has been a misconception that 'space' spending does not have application on Earth but that is untrue. Major discoveries in space have led to the creation of firefighting equipment, iphone cameras, and water filtration devices. Better understanding of natural events like Carbon Dioxide levels and Ice Cap melt can be fully captured through discoveries made in space.  ")
